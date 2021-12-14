@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "villager-shpp-owner-mod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Village Shop Owner Mod",
+  "description": "This mod should let players set up villagers that can be given stock to sell at a given price point and manage the inventory.",
   "authors": [
-    "Me!"
+    "Spencer Kasper"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/SpencerKasper/villager-shop-owner-mod"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.example.VillagerShopOwnerMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "village-shop-owner-mod.mixins.json"
   ],
 
   "depends": {

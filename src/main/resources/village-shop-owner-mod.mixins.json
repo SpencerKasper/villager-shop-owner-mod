@@ -6,7 +6,11 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ScheduleAccessor",
+    "VillagerEntityAccessor",
+    "ActivityInvoker",
+    "MemoryModuleTypeInvoker",
+    "PointOfInterestTypeInvoker"
   ],
   "injectors": {
     "defaultRequire": 1
